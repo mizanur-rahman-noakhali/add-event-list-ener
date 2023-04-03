@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Event management Company</title>
+</head>
+<body>
+  <h1 onclick="console.log('programmer')">Exploring event</h1>
+  <button onclick="handleClick()">CLICK ME</button>
+  <button onmousemove="handleClick1()">CLICK ME</button>
+  <button onmouseout="handleClick2()">CLICK ME</button>
+  <script>
+    function handleClick(){
+     // console.log("someone click me");
+      console.log(new Date());
+    }
+      function handleClick1(){
+      console.log("someone click me");
+
+    }
+    function handleClick2(){
+      console.log("some one over me");
+
+    }
+  </script>
+</body>
+</html>
